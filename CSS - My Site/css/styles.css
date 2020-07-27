@@ -3,11 +3,11 @@ body {
   margin: 0;
   text-align: center;
   font-family: sans-serif;
-
 }
 
-h1{
+h1 {
   margin-top: 0;
+  font-family: 'Amatic SC', cursive;
   /*
   Study Note: text-align center only affects elements with no width; if it need
   a width, use margin to solve the problem.
@@ -15,49 +15,61 @@ h1{
   margin: 0 auto 0 auto;
   */
 }
+
+p {
+  font-family: 'Recursive', sans-serif;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+}
+
+h3 {
+  font-family: 'Sacramento', cursive;
+}
+
 /*Study Note: display: inline(occupy whole line, can change width)
 /block(cannt change width)/inline-block(can do both); */
-
 /******************************CLASS SELECTORS********************************/
-.top-container{
+.top-container {
   background-color: #faf2f2;
   position: relative;
   padding-top: 100px;
 }
 
-.name-text{
+.name-text {
   position: relative;
 }
 
-.programmer-text{
+.programmer-text {
   position: relative;
 }
 
-.middle-container{
+.middle-container {
   background-color: red;
   width: 200px;
   height: 200px;
 }
 
-.bottom-container{
+.bottom-container {
   background-color: blue;
   width: 200px;
   height: 200px;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
 }
 
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
 
-.mountain{
+.mountain {
   position: relative;
 }
 
