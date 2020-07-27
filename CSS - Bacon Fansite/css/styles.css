@@ -1,0 +1,33 @@
+/*******************************TAG SELECTORS*****************************/
+h1 {
+  color: red;
+  font-size: 200px;
+}
+
+/*Study Note: :hover is a pesudo class*/
+img:hover{
+  background-color: gold;
+}
+
+
+/******************************CLASS SELECTORS********************************/
+/*Study Note: one item can have multiple class*/
+.bacon {
+  background-color: green;
+}
+
+.broccoli{
+  background-color: red;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+/******************************ID SELECTORS********************************/
+/*Study Note: CLASS/ID prioritizes TAG selectors*/
+/*Study Note: one item can only have one id*/
+/*Study Note: one document can only have one same id, but class can have multiple.*/
+#heading{
+  color: blue;
+}
