@@ -24,6 +24,7 @@ h1 {
 
 p {
   font-family: 'Recursive', sans-serif;
+  line-height: 2;
 }
 
 h2 {
@@ -37,16 +38,43 @@ h3 {
   font-family: 'Recursive', sans-serif;
 }
 
+hr{
+  border-style: dotted none none none;
+  border-width: 6px;
+  width: 4%;
+  margin: 75px auto;
+  color: #f1d1d1;
+}
+
+a{
+  color: #fab7b7;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
 /*Study Note: display: inline(occupy whole line, can change width)
 /block(cannt change width)/inline-block(can do both); */
 /******************************CLASS SELECTORS********************************/
+.self-img{
+  margin-top: 50px;
+}
+
+.introduction{
+  display: inline-block;
+  margin-bottom: 0;
+  width: 40%;
+}
+
 .top-container {
   background-color: #faf2f2;
   position: relative;
   padding-top: 100px;
 }
 
-.name-text {;
+.name-text {
   position: relative;
 }
 
@@ -60,17 +88,22 @@ h3 {
 }
 
 .bottom-container {
+  background: #7d5a5a;
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 1.25rem;
 }
 
 .top-cloud {
   position: absolute;
-  right: 300px;
-  top: 50px;
+  right: 400px;
+  top:80px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 350px;
   bottom: 300px;
 }
 
@@ -78,5 +111,58 @@ h3 {
   position: relative;
 }
 
+.project-row {
+  display: inline-block;
+  width: 50%;
+  margin: 20px auto 20px auto;
+  text-align: left;
+}
+
+.camera-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.deeplearning-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message{
+  margin: 40px auto 60px;
+}
+
+.contact-me{
+  padding-bottom: 50px;
+}
+
+.myButton {
+	background-color:#f0a8a8;
+	border-radius:8px;
+	border:1px solid #a34343;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Recursive', sans-serif;
+	font-size:20px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #691818;
+}
+.myButton:hover {
+	background-color:#f1d1d1;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+}
 
 /******************************ID SELECTORS********************************/
