@@ -141,3 +141,30 @@ p{
     text-align: center;
   }
 }
+
+/* CTA */
+
+#cta{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-text{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+}
+
+/* footer */
+
+#footer{
+  padding: 7% 15%;
+  background-color: white;
+  text-align: center;
+}
+
+.footer-icon{
+  margin: 1rem;
+}
